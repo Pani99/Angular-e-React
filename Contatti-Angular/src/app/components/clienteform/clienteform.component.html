@@ -1,0 +1,30 @@
+<div class="page-header">
+    <h3>Form Gestione Clienti</h3>
+</div>
+<div>
+    <form class="col-md-5" (ngSubmit)="processaForm()">
+        <div class="form-group">
+            <label for="id">ID</label>
+            <input type="text" name="id" class="form-control" [(ngModel)]="cliente.id" readonly>
+        </div>
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" class="form-control" [(ngModel)]="cliente.nome" required>
+        </div>
+        <div>
+            <label for="cognome">Cognome</label>
+            <input type="text" name="cognome" class="form-control" [(ngModel)]="cliente.cognome" required>
+        </div>
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" class="form-control" [(ngModel)]="cliente.username" required>
+        </div>
+        
+        <div>
+            <label for="eta">Et&agrave;</label>
+            <input type="int" name="eta" class="form-control" [(ngModel)]="cliente.eta" required>
+        </div>
+        <input type="submit" value="Salva Cliente" class="btn btn-success">
+
+    </form>
+</div>

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "Gianni",
+      "datetime": "February 02, 2022 7:23:56 PM",
+      "body": "mangiare\n"
+    },
+    {
+      "id": 3,
+      "title": "Pino",
+      "datetime": "February 02, 2022 9:46:04 PM",
+      "body": "comprare cose"
+    }
+  ]
+}
